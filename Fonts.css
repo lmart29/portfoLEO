@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Sofi';
+	src: url('../assets/Sofi-Regular.ttf');
+	margin: 25px 25px 25px 25px; 
+}
+
+body {
+	font-family: 'Sofi', sans-serif;
+	font-size: 30px;
+	margin: 25px 25px 25px 25px; 
+}
+
+pre {
+	font-family: 'Sofi', sans-serif;
+	font-size: 40px;
+	margin: 25px 25px 25px 25px; 
+}
+h1 {
+	font-family: 'Sofi', sans-serif;
+	font-size: 70px;
+	margin: 25px 25px 25px 25px; 
+}
+
+h2 {
+	font-family: 'Sofi', sans-serif;
+	font-size: 40px;
+	margin: 25px 25px 25px 25px; 
+}
+
+head {
+	font-family: 'Sofi', sans-serif;
+	font-size: 40px;
+	margin: 25px 25px 25px 25px; 
+}
+
+div {
+	font-family: 'Sofi', sans-serif;
+	font-size: 40px;
+	margin: 25px 25px 25px 25px; 
+}
+
+title {
+	font-family: 'Sofi', sans-serif;
+	font-size: 40px;
+	margin: 25px 25px 25px 25px; 
+}
