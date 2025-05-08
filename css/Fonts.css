@@ -1,20 +1,21 @@
 body {
-  background-image: url('background.jpg'); 
+  background-image: url('background.jpg');
   background-size: cover;
-  background-repeat: repeat-y;
+  background-repeat: repeat-x;
   background-position: center;
   margin: 0;
   padding: 0;
   height: 100vh;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Copperplate Gothic Bold', 'Copperplate', fantasy;
   color: lightblue;
 }
 
-p {
+body *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   color: darkgreen;
   font-family: 'Perpetua', serif;
 }
+
 
