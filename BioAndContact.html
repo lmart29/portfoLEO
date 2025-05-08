@@ -16,20 +16,21 @@
     }
 
     .center-image {
-      text-align: center;
-      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
     }
 
     .bio-image {
-      max-width: 60vw;
+      width: 300px;
       height: auto;
       object-fit: contain;
       border-radius: 8px;
     }
 
     .bio-text {
-      text-align: left;
       font-size: 1.1rem;
+      color: darkgreen;
     }
 
     a {
@@ -43,7 +44,7 @@
 
     @media (max-width: 600px) {
       .bio-image {
-        max-width: 90vw;
+        width: 90%;
       }
 
       .bio-text {
@@ -54,12 +55,10 @@
 </head>
 <body>
 
-  <!-- Center the image -->
   <div class="center-image">
     <img src="assets/headshot1.jpeg" class="bio-image" alt="Leo Rionnach Headshot" />
   </div>
 
-  <!-- Bio text with proper paragraph structure -->
   <div class="bio-text">
     <p>Leo Rionnach (he/they) is a queer and trans multi-disciplinary artist focused on Art as Therapy.</p>
     <p>Born and raised outside of Cleveland, Ohio, he began creating art and performing at a young age.</p>
@@ -71,3 +70,4 @@
 
 </body>
 </html>
+
