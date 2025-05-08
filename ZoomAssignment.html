@@ -3,16 +3,42 @@
 <head>
     <link rel="stylesheet" href="css/Fonts.css">
     <title>Zoom Assignment</title>
+    <style>
+        /* Center all text and media */
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        video {
+            display: block;
+            margin: 20px auto; /* Centers the video */
+            max-width: 5in; /* Keeps the video width as per original style */
+            height: auto;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto; /* Centers the images */
+            max-width: 50%;
+            height: auto;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-    <video controls style="max-width: 5in;">
+    <video controls>
         <source src="assets/zoom1.mp4" type="video/mp4">
         <!-- The images can go outside of the video tag -->
     </video>
 
     <!-- These should be outside the <video> tag -->
-    <img src="assets/zoom2.png" style="max-width: 50%; height: auto;">
-    <img src="assets/zoom3.png" style="max-width: 50%; height: auto;">
+    <img src="assets/zoom2.png" alt="Zoom Image 2">
+    <img src="assets/zoom3.png" alt="Zoom Image 3">
 
     <p>A zoom background. February 2025.</p>
 </body>
