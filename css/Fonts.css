@@ -1,46 +1,83 @@
-@font-face {
-	font-family: 'Sofi';
-	src: url('../assets/Sofi-Regular.ttf');
-	margin: 25px 25px 25px 25px; 
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Body with pastel gradient background */
 body {
-	font-family: 'Sofi', sans-serif;
-	font-size: 30px;
-	margin: 25px 25px 25px 25px; 
+  font-family: 'Perpetua', serif;
+  background: linear-gradient(to right, #f9e6f1, #e0f7fa);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
 }
 
-pre {
-	font-family: 'Sofi', sans-serif;
-	font-size: 40px;
-	margin: 25px 25px 25px 25px; 
-}
-h1 {
-	font-family: 'Sofi', sans-serif;
-	font-size: 70px;
-	margin: 25px 25px 25px 25px; 
+/* Headers styled in Copperplate Gothic Bold and light blue */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Copperplate Gothic Bold', sans-serif;
+  color: #7ec8e3;
+  margin-bottom: 10px;
 }
 
-h2 {
-	font-family: 'Sofi', sans-serif;
-	font-size: 40px;
-	margin: 25px 25px 25px 25px; 
+/* Container for page sections */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-head {
-	font-family: 'Sofi', sans-serif;
-	font-size: 40px;
-	margin: 25px 25px 25px 25px; 
+/* Navigation bar */
+nav {
+  background-color: #ffffffaa;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-div {
-	font-family: 'Sofi', sans-serif;
-	font-size: 40px;
-	margin: 25px 25px 25px 25px; 
+nav a {
+  text-decoration: none;
+  color: #555;
+  margin-right: 20px;
+  font-weight: bold;
 }
 
-title {
-	font-family: 'Sofi', sans-serif;
-	font-size: 40px;
-	margin: 25px 25px 25px 25px; 
+nav a:hover {
+  color: #7ec8e3;
+}
+
+/* Paragraph styling */
+p {
+  font-family: 'Perpetua', serif;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Buttons */
+.button {
+  background-color: #7ec8e3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #68b0cd;
 }
