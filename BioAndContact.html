@@ -1,22 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Fonts.css">
-    <title>Biography and Contact Info</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/Fonts.css" />
+  <title>Biography and Contact Info</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #003300;
+    }
+
+    .center-image {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .bio-image {
+      max-width: 60vw;
+      height: auto;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .bio-text {
+      text-align: left;
+      font-size: 1.1rem;
+    }
+
+    a {
+      color: #00695c;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .bio-image {
+        max-width: 90vw;
+      }
+
+      .bio-text {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<!-- Center the image -->
-<div class="center-image">
-    <img src="assets/headshot1.jpeg" class="bio-image">
-</div>
+  <!-- Center the image -->
+  <div class="center-image">
+    <img src="assets/headshot1.jpeg" class="bio-image" alt="Leo Rionnach Headshot" />
+  </div>
 
-<!-- Bio text with proper paragraph structure -->
-<div class="bio-text">
+  <!-- Bio text with proper paragraph structure -->
+  <div class="bio-text">
     <p>Leo Rionnach (he/they) is a queer and trans multi-disciplinary artist focused on Art as Therapy.</p>
     <p>Born and raised outside of Cleveland, Ohio, he began creating art and performing at a young age.</p>
     <p>In high school, he studied acting and theater at the Academy for the Performing Arts, and moved to Chicago, IL after graduation to continue his studies at the University of Illinois Chicago.</p>
     <p>He took a break from education during the pandemic of 2020, and gained film experience as he continued to expand his experience with differing art mediums.</p>
-    <p>Recently, he has returned to UIC to study Interdisciplinary Arts as well as Psychology, in order to eventually
+    <p>Recently, he has returned to UIC to study Interdisciplinary Arts as well as Psychology, in order to eventually make his way to becoming a Licensed Clinical Professional Counselor, with an interest in Art Therapy.</p>
+    <p>All inquiries: email <a href="mailto:leo.rionnach@gmail.com">leo.rionnach@gmail.com</a></p>
+  </div>
+
+</body>
+</html>
