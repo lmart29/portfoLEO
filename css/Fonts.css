@@ -1,32 +1,20 @@
-/* Reset some basic styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  background-image: url('background.jpg');
+  background-image: url('../assets/gradient.jpg'); /* adjust path if needed */
   background-size: cover;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
   background-position: center;
   margin: 0;
   padding: 0;
   height: 100vh;
-  color: white; /* Default text color, can be overridden below */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: 'Copperplate Gothic Bold', 'Copperplate', fantasy;
-  color: purple;
+  color: lightblue;
 }
-/* All text elements except headers */
+
 p {
   color: darkgreen;
   font-family: 'Perpetua', serif;
-
 }
 
-img {
-  width: 50vw;   /* 50% of the viewport width */
-  height: auto;   /* Maintain aspect ratio */
-}
