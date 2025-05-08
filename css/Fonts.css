@@ -1,5 +1,5 @@
 body {
-  background-image: url('../assets/gradient.jpg'); /* adjust path if needed */
+  background-image: url('background.jpg'); 
   background-size: cover;
   background-repeat: repeat-x;
   background-position: center;
