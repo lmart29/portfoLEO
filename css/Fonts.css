@@ -6,78 +6,26 @@
 }
 body {
   background-image: url('gradient.jpg');
-  background-size: cover;       /* Makes sure the image covers the whole screen */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center;  /* Centers the image */
-  margin: 10;
-  padding: 10;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
   height: 100vh;
+  color: white; /* Default text color, can be overridden below */
 }
 
-/* Headers styled in Copperplate Gothic Bold and light blue */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Copperplate Gothic Bold', sans-serif;
-  color: #7ec8e3;
-  margin-bottom: 10px;
+  font-family: 'Copperplate Gothic Bold', 'Copperplate', fantasy;
+  color: darkred;
 }
 
-/* Container for page sections */
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Navigation bar */
-nav {
-  background-color: #ffffffaa;
-  padding: 15px;
-  margin-bottom: 30px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav a {
-  text-decoration: none;
-  color: #555;
-  margin-right: 20px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #7ec8e3;
-}
-
-/* Paragraph styling */
 p {
   font-family: 'Perpetua', serif;
-  font-size: 1.1em;
-  margin-bottom: 15px;
+  color: darkgreen;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  color: #777;
-}
-
-/* Buttons */
-.button {
-  background-color: #7ec8e3;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #68b0cd;
+img {
+  width: 50vw;   /* 50% of the viewport width */
+  height: auto;   /* Maintain aspect ratio */
 }
