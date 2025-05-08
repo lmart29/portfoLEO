@@ -1,26 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/Fonts.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/Fonts.css" />
   <title>Leo Rionnach</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .topnav {
+      margin-bottom: 20px;
+    }
+
+    .topnav a {
+      text-decoration: none;
+      color: #004d40;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .image-row img {
+      max-width: 22vw;
+      height: auto;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    a {
+      color: #00695c;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      color: darkgreen;
+      font-size: 1.1rem;
+    }
+  </style>
 </head>
 <body>
 
   <h1>Leo Rionnach</h1>
 
-  <!-- Navigation links -->
   <div class="topnav">
-      <a href="BioAndContact.html">Bio</a>
-  </div> 
+    <a href="BioAndContact.html">Bio</a>
+  </div>
 
-  <!-- Images section with flexbox for centering -->
-  <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="assets/august-angel.jpeg" style="max-width: 25%; height: auto;">
-    <img src="assets/bobross.JPG" style="max-width: 25%; height: auto;">
-    <img src="assets/robot2.jpeg" style="max-width: 25%; height: auto;">
-    <img src="assets/lillies.jpeg" style="max-width: 25%; height: auto;">
+  <div class="image-row">
+    <img src="assets/august-angel.jpeg" alt="August Angel" />
+    <img src="assets/bobross.JPG" alt="Bob Ross" />
+    <img src="assets/robot2.jpeg" alt="Robot" />
+    <img src="assets/lillies.jpeg" alt="Lillies" />
   </div>
 
   <h2>Multimedias. . . . .</h2>
@@ -32,7 +82,6 @@
   <a href="IndulgenceProductionDesign.html">Production Design for "Indulgence"</a><br />
   <a href="FoundOurAngels.html">Found Our Angels</a><br />
   <a href="ZoomAssignment.html">Zoom Assignment</a><br />
-  <br />
 
   <h2>and who knows what else?</h2>
   <p>coming soon!</p>
