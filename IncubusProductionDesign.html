@@ -17,10 +17,15 @@
             margin-bottom: 20px;
         }
 
+        .single-image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px; /* Adds space below the image */
+        }
+
         .image-container {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap; /* Ensures images wrap to the next line on smaller screens */
             gap: 20px; /* Adds space between images */
             margin-bottom: 20px; /* Adds space below the images */
         }
@@ -45,8 +50,13 @@
 
 <h2>Production Design Work</h2>
 
-<div class="image-container">
+<!-- First image displayed by itself -->
+<div class="single-image-container">
     <img src="assets/incubus2.png" alt="Incubus Production Image 2">
+</div>
+
+<!-- Following 4 images together -->
+<div class="image-container">
     <img src="assets/incubus3.jpg" alt="Incubus Production Image 3">
     <img src="assets/incubus4.jpg" alt="Incubus Production Image 4">
     <img src="assets/incubus5.jpg" alt="Incubus Production Image 5">
