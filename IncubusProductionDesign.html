@@ -24,9 +24,10 @@
         }
 
         .image-container {
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Creates a 2x2 grid */
+            gap: 20px; /* Adds space between the images */
             justify-content: center;
-            gap: 20px; /* Adds space between images */
             margin-bottom: 20px; /* Adds space below the images */
         }
 
@@ -55,7 +56,7 @@
     <img src="assets/incubus2.png" alt="Incubus Production Image 2">
 </div>
 
-<!-- Following 4 images together -->
+<!-- Following 4 images in a 2x2 grid -->
 <div class="image-container">
     <img src="assets/incubus3.jpg" alt="Incubus Production Image 3">
     <img src="assets/incubus4.jpg" alt="Incubus Production Image 4">
