@@ -8,7 +8,7 @@
 /* Body with pastel gradient background */
 body {
   font-family: 'Perpetua', serif;
-  background: url('gradient.jpeg') no-repeat center center fixed;
+  background: url('gradient.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #333;
   line-height: 1.6;
