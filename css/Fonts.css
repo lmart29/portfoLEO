@@ -7,6 +7,8 @@ body {
   padding: 0;
   height: 100vh;
 }
+.image {
+    border-radius: 8px !important;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Copperplate Gothic Bold', 'Copperplate', fantasy;
